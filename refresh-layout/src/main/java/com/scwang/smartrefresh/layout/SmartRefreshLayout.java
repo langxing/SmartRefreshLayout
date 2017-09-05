@@ -1941,6 +1941,7 @@ public class SmartRefreshLayout extends ViewGroup implements RefreshLayout {
     @Override
     public SmartRefreshLayout setLoadmoreFinished(boolean finished) {
         mLoadmoreFinished = finished;
+        mState = RefreshState.None;
         if (mRefreshFooter != null) {
             mRefreshFooter.setLoadmoreFinished(finished);
         }
