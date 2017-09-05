@@ -1,5 +1,4 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
 //apply plugin: 'me.tatarka.retrolambda'
 apply plugin: 'com.github.dcendents.android-maven'
 
@@ -36,13 +35,4 @@ dependencies {
     })
     testCompile 'junit:junit:4.12'
     provided 'com.android.support:design:25.3.1'
-}
-
-publish {
-    userOrg = 'scwang90'
-    groupId = 'com.scwang.smartrefresh'
-    artifactId = 'SmartRefreshLayout'
-    version = '1.0.3-alpha-2'
-    description = 'An intelligent refresh layout'
-    website = "https://github.com/scwang90/${rootProject.name}"
 }
