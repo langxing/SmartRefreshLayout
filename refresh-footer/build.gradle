@@ -1,4 +1,4 @@
-apply plugin: 'com.android.library'
+//apply plugin: 'com.android.library'
 //apply plugin: 'com.novoda.bintray-release'
 //apply plugin: 'me.tatarka.retrolambda'
 
